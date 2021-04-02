@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Font-->
+     <link rel="preconnect" href="https://fonts.gstatic.com"> 
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
+     rel="stylesheet">
+
+     <!--Styles-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Contact</title>
+    
+   <style>
+        .container h1{
+            text-align: left;
+            text-transform: uppercase;
+            margin-left: 15px;
+        }
+         .navbar ul li a{
+            font-size: 30;
+        }
+        input[type=text] {
+            width: 20%;
+            padding: 12px 20px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 2px solid #000;
+            border-radius: 4px;
+    }
+    textarea{
+        width: 30%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize:both;
+    }
+    input[type=submit] {
+        background-color: #4c66af;
+        border: none;
+        color: white;
+        font-size: 20px;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    footer p{
+     text-align: left;
+     padding-top: 24px;
+     padding-bottom: 10;
+     font-weight: 500;
+     font-size: 20px;
+     color: blue;
+}
+    </style>
+</head>
+<body>
+     <div class="container">
+         <h1>Contact</h1>
+         <nav class="navbar">
+             <ul>
+                 <li class="home"><a href="./index.html">Home</a></li>
+                 <li class="about"><a href="./about.html">About</a></li>
+                 <li class="contact"><a href="./contact.html">Contact</a></li>
+             </ul>
+          </nav>
+          <form>
+            <label for="fname">FIRST NAME:</label><br>
+            <input type="text" id="name" placeholder="your first name"><br>
+            <label for="lname">LAST NAME:</label><br>
+            <input type="text" id="name" placeholder="your last name"><br>
+            <label for="email">EMAIL:</label><br>
+            <input type="text" id="email" placeholder="your email"><br>
+            <label for="phone">PHONE:</label><br>
+            <input type="text" id="phone" placeholder="phone number"><br>
+            <textarea name="" id="" rows="10" cols="30" placeholder="write your message">
+             </textarea><br><br>
+              <input type="Submit">
+           </form>
+           <br><br><br><br><br><br>
+           <hr>
+           <div>
+            <section>
+                <footer>
+                    <p>&copy;All Rights Reserved 2021.</p>
+                </footer>
+            </section>
+        </div>  
+     </div>
+    </div>
+</html>
